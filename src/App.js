@@ -1,28 +1,32 @@
 
 import React from 'react';
 import Game from './components/Game/Game';
+import image1 from './components/Assest/images/raccoon.png';
+import image2 from  './components/Assest/images/squirrel.png';
+import image3 from './components/Assest/images/bunny.png';
+import image4 from './components/Assest/images/hound.png';
 import "./App.css";
 
 
 function App(props) {
   const raccoons = {
     name: 'Russiaville Raccoons',
-    logoSrc: './Assest/images/raccoon.png'
+    logoSrc: image1,
   }
 
   const squirrels = {
     name: 'Sheridan Squirrels',
-    logoSrc: './Assest/images/squirrel.png'
+    logoSrc: image2,
   }
 
   const bunnies = {
     name: 'Burlington Bunnies',
-    logoSrc: './Assest/images/bunny.png'
+    logoSrc: image3,
   }
 
   const hounds = {
     name: 'Hammond Hounds',
-    logoSrc: './Assest/images/hound.png'
+    logoSrc: image4,
   }
 
   return (
